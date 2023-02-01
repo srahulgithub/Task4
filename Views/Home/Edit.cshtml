@@ -1,0 +1,12 @@
+﻿<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="file">Select file</label>
+        <input type="file" name="file" id="file">
+    </div>
+    <div class="form-group">
+        <label for="textData">Text Data</label>
+        <input type="text" name="textData" id="textData">
+    </div>
+    <input type="hidden" name="id" value="@Model">
+    <button type="submit">Save</button>
+</form>
